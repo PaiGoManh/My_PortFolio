@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import paigo from '../assets/paigo.jpg'
 import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin, FaDiscord } from "react-icons/fa";
@@ -7,12 +6,12 @@ import { FaLinkedin, FaDiscord } from "react-icons/fa";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <div className='flex flex-col items-center mt-10 gap-8 md:flex-row md:justify-center md:gap-10 md:mt-5'>
+      <div id='home'></div>
+      <div className='flex flex-col items-center md:pt-[9%] pt-[40%] gap-8 md:flex-row md:justify-center md:gap-10 '>
         <div className='text-center md:text-left'>
           <h1 className='text-2xl md:text-4xl font-extrabold'>Full-Stack Blockchain</h1>
           <h1 className='text-2xl md:text-4xl font-extrabold'>Developer 👋</h1>
-          <p className='mt-4 text-md md:text-xl'>Hi, I'm Rahul Sajeevan. A Passionate Full-stack Blockchain</p>
+          <p className='mt-6 text-md md:text-xl w-[300px] md:w-[600px] md:mr-[-5%]'>Hi, I'm Rahul Sajeevan. A Passionate Full-stack Blockchain</p>
           <p className='text-md md:text-xl'>developer based in Kerala, India 💻</p>
           <div className='flex justify-center mt-4 gap-3 md:justify-start'>
             <IoLogoGithub className='w-6 h-6' />
@@ -30,9 +29,9 @@ const Home = () => {
       </div>
       <div className='flex items-center justify-center mt-20'>
       <div className='flex items-center'>
-        <h1 className='text-lg md:text-xl font-bold'>Tech Stack <span className='ml-3'>|</span></h1>
+        <h1 className='text-lg md:text-xl font-bold hidden '>Tech Stack <span className='md:ml-3 hidden'>|</span></h1>
       </div>
-      <div className='flex flex-wrap justify-center gap-2 md:gap-4 ml-3 items-center'>
+      <div className='md:flex md:flex-nowrap md:justify-center flex flex-wrap w-[300px] gap-2 md:gap-4 ml-[-35px] items-center'>
         <img src="https://skillicons.dev/icons?i=html,css,js,react,next,tailwind" alt="skill-icon" className='mr-3'/>
         <img src="https://skillicons.dev/icons?i=nodejs,express" alt="skill-icon" className='mr-3'/>
         <img src="https://skillicons.dev/icons?i=mysql,mongodb" alt="skill-icon" className='mr-3'/>

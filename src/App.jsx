@@ -4,10 +4,12 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import Footer from './pages/Footer'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div>
+      <Navbar/>
       <Home/>
       <About/>
       <Projects/>

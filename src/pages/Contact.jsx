@@ -4,7 +4,7 @@ import { CiMail } from 'react-icons/ci';
 
 const Contact = () => {
   return (
-    <div className='mt-16 sm:mt-24 lg:mt-32 lg:mb-20'>
+    <div className='mt-[5%] sm:mt-24 lg:mt-40 lg:mb-20' id='contact'>
       <div className='ml-[12%]'>
         <h2 className='text-xl sm:text-xl font-bold text-blue-500'>CONTACT</h2>
         <p className='text-xl sm:text-2xl font-extrabold mt-4'>
