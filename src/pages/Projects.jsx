@@ -193,7 +193,7 @@ const Projects = () => {
     <h1 className='md:text-right md:mr-[27%] text-left md:mb-[-13px]  mt-3 ml-2 '>CinemaStack 🎥   </h1>
       <div className='md:flex md:flex-row flex flex-col justify-center items-center gap-10 mt-5'>
         <div>
-            <img src={nillq} alt='nillq' className='border-2 border-black md:w-[500px] md:h-[300px] md:mt-[-30px] w-[350px] ml-[-16px] '/>
+            <img src={cinema} alt='cinema' className='border-2 border-black md:w-[500px] md:h-[300px] md:mt-[-30px] w-[350px] ml-[-16px] '/>
         </div>
         <div >
             <p className='md:w-[400px] w-[350px] md:ml-0 ml-3 text-justify'>
