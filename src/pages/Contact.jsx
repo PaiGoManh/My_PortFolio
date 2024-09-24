@@ -13,10 +13,10 @@ const Contact = () => {
       </div>
 
       <div className='mt-12 flex flex-col sm:flex-row items-center ml-[12%] gap-10'>
-        <div className='flex items-center gap-6'>
+        <div className='flex items-center gap-6 ml-[-55%] md:ml-0' >
           <FaMapLocationDot className='text-xl sm:text-2xl text-blue-500' />
           <div>
-            <h3 className='text-lg sm:text-xl md:text-xl font-bold'>Location</h3>
+            <h3 className='text-lg sm:text-xl md:text-xl font-bold '>Location</h3>
             <p className='text-base sm:text-lg md:text-l font-semibold text-gray-600'>
               Kerala, India
             </p>
@@ -26,7 +26,7 @@ const Contact = () => {
         {/* Email */}
         <div className='flex items-center gap-6'>
           <CiMail className='text-3xl sm:text-2xl text-blue-500' />
-          <div>
+          <div className='md:mb-0 mb-[5%]'>
             <h3 className='text-lg sm:text-xl md:text-xl font-bold'>Mail</h3>
             <p className='text-base sm:text-lg md:text-l font-semibold text-gray-600 '>
               rahulrahulsajeevan007@gmail.com
