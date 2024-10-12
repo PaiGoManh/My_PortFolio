@@ -41,13 +41,29 @@ const Home = () => {
       <div className='flex items-center'>
         <h1 className='text-lg md:text-xl font-bold hidden '>Tech Stack <span className='md:ml-3 hidden'>|</span></h1>
       </div>
-      <div className='md:flex md:flex-nowrap md:justify-center flex flex-wrap w-[300px] gap-2 md:gap-4 ml-[-35px] items-center'>
-        <img src="https://skillicons.dev/icons?i=html,css,js,react,next,tailwind" alt="skill-icon" className='mr-3'/>
-        <img src="https://skillicons.dev/icons?i=nodejs,express" alt="skill-icon" className='mr-3'/>
-        <img src="https://skillicons.dev/icons?i=mysql,mongodb" alt="skill-icon" className='mr-3'/>
-        <img src="https://skillicons.dev/icons?i=docker,github" alt="skill-icon" className='mr-3'/>
-        <img src="https://skillicons.dev/icons?i=solidity" alt="skill-icon"/>
-
+      <div className='md:flex md:flex-nowrap md:justify-center md:items-center flex flex-wrap w-[900px] md:gap-[5%]  ml-[-35px] items-center'>
+        <h1 className='font-extrabold md:ml-0 ml-[12%]'>
+          Tech<span className='ml-2'>Stack</span> 
+        </h1>
+        <div className='md:ml-[-2%] md:mt-0 mt-4 ml-[11%]'>
+          <img src="https://skillicons.dev/icons?i=html,css,js,react,next,tailwind" alt="skill-icon" className='mr-3'/>
+        </div>
+        <div className='md:flex md:flex-nowrap flex md:justify-center md:ml-0 ml-[12%]'>
+          <div className='md:mt-0 mt-4'>
+            <img src="https://skillicons.dev/icons?i=nodejs,express" alt="skill-icon" className='mr-3'/>
+          </div>
+          <div className='md:mt-0 mt-4'>
+            <img src="https://skillicons.dev/icons?i=mysql,mongodb" alt="skill-icon" className='mr-3 md:pl-0  '/>
+          </div>
+        </div>
+        <div className='md:flex md:flex-nowrap md:justify-center md:ml-0 ml-[12%]'>
+          <div className='md:mt-0 mt-4'>
+            <img src="https://skillicons.dev/icons?i=docker,github" alt="skill-icon" className='mr-3 '/>
+          </div>
+          <div className='md:mt-0 mt-4'>
+            <img src="https://skillicons.dev/icons?i=solidity" alt="skill-icon"/>
+          </div>
+        </div>
 
       </div>
     </div>

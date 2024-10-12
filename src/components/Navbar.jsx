@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='bg-white text-black h-20 w-full fixed '>
+    <div className='bg-white text-black h-20 w-full fixed'>
       <div className='flex justify-between items-center px-10 h-full'>
         <div className='font-bold text-lg'>
           <h1>Rahul Sajeevan</h1> 
@@ -29,7 +29,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className='md:hidden flex mx-[20px]'>
+        <div className='md:hidden flex'>
           {!navOpen ? (
             <AiOutlineMenu size={25} className='cursor-pointer' onClick={toggleNav} />
           ) : (
@@ -42,16 +42,16 @@ const Navbar = () => {
         className={`${
           navOpen ? 'block' : 'hidden'
         } md:hidden bg-white text-black h-screen w-full fixed top-20 left-0 flex flex-col items-center gap-5 font-bold text-xl pt-10 transition-all duration-300`}>
-          <a href="#home">
+          <a href="#home" onClick={toggleNav}>
             <h1 className='cursor-pointer'>Home</h1>
           </a>
-          <a href="#about">
+          <a href="#about" onClick={toggleNav}>
             <h1 className='cursor-pointer'>About</h1>
           </a>
-          <a href="#projects">
+          <a href="#projects" onClick={toggleNav}>
             <h1 className='cursor-pointer'>Projects</h1>
           </a>
-          <a href="#contact">
+          <a href="#contact" onClick={toggleNav}>
             <h1 className='cursor-pointer'>Contact</h1>
           </a>
       </div>
