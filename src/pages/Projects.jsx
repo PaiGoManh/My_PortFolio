@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { IoLogoGithub } from "react-icons/io";
 import { FaShareFromSquare } from "react-icons/fa6";
@@ -7,7 +8,6 @@ import feedfox from '../assets/Projects/feedfx.png'
 import certi from '../assets/Projects/certiapp.png'
 import split from '../assets/Projects/EasySplit.png'
 import quiz from '../assets/Projects/QuizApp.png'
-import cinema from '../assets/Projects/cinemastack.png'
 import daapzon from '../assets/Projects/Daapzon.png'
 
 const Projects = () => {
@@ -17,6 +17,7 @@ const Projects = () => {
       <div className='mt-[15%]' >
       <h1 className=' text-blue-500 font-bold md:ml-[13%] ml-2'>PROJECTS</h1>
       <h1 className='md:ml-[13%] ml-2 mt-1 md:mb-[5%] mb-[10%] mb:mx-0 mx-1'>Each project is a uinque piece of Development 🌿</h1>
+      
       <h1 className='md:text-right md:mr-[27%] text-left md:mb-[-13px]  mt-3 ml-2 font-extrabold'>NillQ 🏥 </h1>
       <div className='md:flex md:flex-row flex flex-col justify-center items-center gap-10 mt-5'>
         <div>
@@ -47,7 +48,55 @@ const Projects = () => {
         </div>
       </div>
 
+      <div className='md:mt-[7%] mt-[15%]'>
+      <h1 className=' md:ml-[27%] text-left ml-3  md:mb-[-10px] text-l font-extrabold'>LeadsDen </h1>
+      <div className='md:flex md:flex-row flex flex-col justify-center items-center gap-10 mt-5'>
+        <div >
+            <p className='md:w-[400px] w-[350px] ml-2 md:ml-0 text-justify'>
+            The Leads Den Home Open App is a comprehensive real estate tool designed to streamline property management for agents, buyers, and vendors. The app supports offline check-in for buyers, CRM integration (initially with REX and AgentBox), and allows agents to manage property listings, broadcast messages, and handle offers in real-time. Buyers can check in via QR code, receive property information, and submit offers with updates visible to agents. Vendors gain controlled access to view listing activity, buyer feedback, and engage with contractors for quotes. The system includes message synchronization, lead tracking, social media automation for listings, and future upgrades like video testimonials and integrations with realestate.com.au.
+            </p>
+            <div className='mt-3 text-center'>
+              <img src="https://skillicons.dev/icons?i=react,nodejs,tailwind" alt="skill-icon" className='w-20 mx-40'/>
+            </div>
+            <div className='flex mt-5 ml-[40%]  gap-5 '>
+                <a href='https://feedfox.live' className='flex items-center gap-1'>
+                    <h1>Live Demo</h1>
+                    <FaShareFromSquare/>
+                </a>
+            </div>
+        </div>
+        <div className='md:mt-[-60px]'>
+            <img src={feedfox} alt='nillq' className='border-2 border-black md:w-[500px] md:h-[300px]'/>
+        </div>
+      </div>
+    </div>
 
+    <div className='md:mt-[7%] mt-[15%]'>
+      <h1 className='md:text-right md:mr-[27%] text-left md:mb-[-13px]  mt-3 ml-2 font-extrabold'>GhostedHire <span className='text-xl'>🛒</span> </h1>
+      <div className='md:flex md:flex-row flex flex-col justify-center items-center gap-10 mt-5'>
+        <div className='md:mt-[-30px]'>
+            <img src={daapzon} alt='daapzon' className='border-2 border-black md:w-[500px] md:h-[300px]'/>
+        </div>
+        <div >
+            <p className='md:w-[400px] w-[350px] md:ml-0 ml-3 text-justify'>             
+            GhostedHire.com (“GHDC”), a groundbreaking platform committed to revolutionizing the job search process through innovation, transparency, and collaboration. Our mission is to provide both Candidates and Employers with the tools and resources they need to navigate the job market more effectively. By offering unique forum-like discussion features, we enable Candidates to share insights and experiences anonymously, while allowing Employers to find and connect with the most suitable Candidates. This fosters an open and supportive environment, enhancing the job search experience for everyone involved.
+            </p>
+            <div className='md:mt-3 mt-5 text-center md:ml-0 -ml-7'>
+              <img src="https://skillicons.dev/icons?i=vite,react,tailwind,nodejs" alt="skill-icon" className='w-[120px] mx-40'/>
+            </div>
+            <div className='flex mt-5 md:ml-[30%] ml-[26%] gap-5'>
+                <a href='https://github.com/PaiGoManh/Certificate-DApp_Blockchain' className='flex items-center gap-1'>
+                    <h1>Code</h1>
+                    <IoLogoGithub/>
+                </a>
+                <a href='' className='flex items-center gap-1'>
+                    <h1>Live Demo</h1>
+                    <FaShareFromSquare/>
+                </a>
+            </div>
+          </div>
+        </div>
+    </div>
 
       <div className='md:mt-[7%] mt-[15%]'>
       <h1 className=' md:ml-[27%] text-left ml-3  md:mb-[-10px] text-l font-extrabold'>FeedFox 🦊</h1>
